@@ -13,7 +13,7 @@ const DataShow = () => {
             console.log(data); // array of users objects
             setValues(data)
           });
-              }, [])
+    }, [])
     return (
         <div>              
             <table style={style}>
